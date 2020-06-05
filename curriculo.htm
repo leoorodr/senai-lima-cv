@@ -8,15 +8,82 @@
         h1{
             font-family: Arial, Helvetica, sans-serif;
         }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h4{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }    
+        h5{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #esquerda{
+            width: 45%;
+            float: left;
+            background-color: lightgrey;
+            height: 620px;
+            padding: 0px;
+        }
+        #direita{
+            background-color: lightyellow;
+            width: 55%;
+            float: right;
+            height: 620px;
+            padding: 0px;
+        }
+        body{
+            background-color: lightslategray;
+        }
     </style>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <!--lado esquerdo-->
-    <div class="container, width: 40px">
-        <div><i class="fas fa-user" style="font-size: 68px;"></i></div>
-        <h1><strong>Leonardo Rodrigues</strong></h1>
-        <br>
+    <div id="esquerda">
+        <div><i class='fas fa-user' style='font-size: 68px;'></i></div>
+        <h1><strong>Leonardo Rodrigues</strong></h1> 
+        <article>
+            <div>
+             <h3><strong>Perfil</strong></h3>
+             <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+            </div>
+            <div>
+             <h3><strong>Contato</strong></h3>
+             <p> <i class='fas fa-phone' style='font-size:24px'></i> (11)98765-4321</p>
+             <p> <i class='fas fa-at' style='font-size:24px'></i> email.exemplo@gmail.com</p>
+            </div>
+            <div>
+                <h3><strong>Hobbies</strong></h3>
+                <p>Esportes</p>
+        
+                <p>Tecnologia</p>
+        
+                <p>Cinema</p>
+            </div>
+        </article>
+    </div>
+    <!--lado direito-->
+    <div id="direita">
+        <div>
+            <h3><i class='fas fa-briefcase' style="font-size: 38px;"></i> <strong>Experiência</strong></h3>
+            <h4><strong>2015 - 2017</strong></h4>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+
+            <h4><strong>2018 - 2020</strong></h4>
+
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+        </div>
+        <div>
+            <h3> <i class='fas fa-book' style="font-size: 38px;"></i> <strong>Educação</strong></h3>
+
+            <h4><strong>2020 - 2021</strong></h4>
+
+            <h5><strong>SENAI</strong></h5> 
+            <p>Desenvolvimento de Sistemas</p>
+        </div>
     </div>
 </body>
 </html>
