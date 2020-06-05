@@ -1,2 +1,2 @@
 # senai-lima-cv
-Curricúlo
+Cúrriculo
